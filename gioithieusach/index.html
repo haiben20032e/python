@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trang giới thiệu sách</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="skin.css">
+  <link rel="stylesheet" href="mouse.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      
+      <div class="header__account">
+        <button id="loginBtn">Đăng nhập</button>
+        <button id="registerBtn">Đăng ký</button>
+      </div>
+
+      
+      <div id="loginPopup" class="popup">
+
+        <div class="popup-content">
+          
+          <div class="form-wrapper">
+          
+            <span class="close">&times;</span>
+      
+            
+      
+            <div class="aa1">
+              <input type="text" placeholder="Username">
+              <input type="password" placeholder="Password">
+            
+              <input type="submit" value="Đăng nhập">
+            </div>
+          
+          </div>
+      
+        </div>
+      
+      </div>
+      
+      
+      
+      <div id="registerPopup" class="popup">
+      
+        
+        <div class="popup-content">
+
+          <div class="form-wrapper">
+          
+            <span class="close">&times;</span>
+      
+            
+            <div class="aa1">
+              <input type="text" placeholder="Username">
+              <input type="password" placeholder="Password">
+              <input type="password" placeholder="Confirm password">
+        
+              <input type="submit" value="Đăng ký">
+            </div>
+      
+          
+          </div>
+        </div>
+      
+      </div>
+
+      <script src="popup.js"></script>
+      <h1 class="header__logo">BookStore</h1>
+      
+      <nav class="header__nav">
+        <a href="#" class="header__nav-item header__nav-item--active">Trang chủ</a>
+        <a href="theloai.html" class="header__nav-item">Thể loại</a>
+        <a href="#" class="header__nav-item">Giới thệu</a>
+        <a href="#" class="header__nav-item">Tác giả</a>
+        <a href="#" class="header__nav-item">Liên hệ</a>
+      </nav>
+      
+      <div class="search-form" action="/search" method="get">
+        <input type="text-search" name="q" placeholder="Tìm kiếm sách...">
+        <button type="#">Tìm</button>
+      </div>
+  
+    </div>
+  </header>
+
+<section id="hero">
+  <h2>Giới thiệu sách hay</h2>
+  <p style="font-family: 'Great Vibes', cursive;">Nơi giới thiệu đến bạn những cuốn sách hay và mới nhất</p>
+  <button class="edx">
+    <div class="inner">
+      <span>Xem sách ngay</span>
+    </div>
+  </button>
+</section>
+<section id="about">
+  <h2 style="font-family: 'Great Vibes', cursive;">Về chúng tôi:
+    <span>
+      <span>Rất yêu bạn</span><span>Tất cả các bạn</span>
+      <span>and you</span><span>Khách hàng là số 1</span>
+      <span>Luôn luôn sẵn sàng</span>
+    </span>
+  </h2>
+  <p >Đội ngũ của BookStore gồm những người yêu sách và luôn nỗ lực để mang lại cho bạn trải nghiệm mua sắm tốt nhất. Chúng tôi luôn sẵn lòng giúp bạn tìm kiếm cuốn sách phù hợp nhất với nhu cầu và sở thích của bạn.</p>
+  <p>Chúng tôi tin rằng mỗi cuốn sách đều có thể mở ra một thế giới mới cho người đọc, và chúng tôi muốn chia sẻ niềm vui ấy với bạn.</p>
+</section>
+
+<section>
+  
+  <div class="slideshow-container">
+    <div style="font-family: 'Great Vibes', cursive;"><h2>Nổi bật trong tuần❤️</h2></div>
+
+    <div class="main">
+    
+      <img src="inmage/yae 1.jpg" class="active">
+      <img src="inmage/yae2.jpg">
+      <img src="inmage/yae3.jpg">
+      <img src="inmage/yae4.jpg">
+      <img src="inmage/yae5.jpg">
+      <img src="inmage/yae6.jpg">
+    
+      <!-- Nhiều ảnh khác -->
+    
+    </div>
+    
+    <div class="dots">
+    
+      <span class="dot active"></span>
+    
+      <span class="dot"></span>
+    
+      <span class="dot"></span> 
+    
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  
+  
+</section>
+
+<section id="new-books">
+  
+    <h2 >Sách mới</h2> 
+  
+  <div class="book">
+    <img src="inmage/a.jpg" alt="Sách 1"/>
+    <h3>Chiến lược valorant</h3>
+    <p>Mô tả sách 1</p>
+    <a href="weble/html/dathang.html"><button>Mua ngay</button></a>
+  </div>
+  <div class="book">
+    <img src="inmage/a1.jpg" alt="Sách 2"/>
+    <h3>Cuộc đời của wayne</h3>
+    <p>Mô tả sách 2</p>
+    <button>Mua ngay</button>
+  </div>
+  <div class="book">
+    <img src="inmage/a5.jpg" alt="Sách 2"/>
+    <h3>Khóa học c++ miễn ph</h3>
+    <p>Mô tả sách 3</p>
+    <button>Mua ngay</button>
+  </div>
+</section>
+
+
+<section id="sale-off">
+  <h2>Sách giảm giá</h2>
+  <div class="book">
+    <img src="inmage/a2.jpg" alt="Sách 1"/>
+    <h3>Tên sách 1</h3>
+    <p>Mô tả sách 1</p>
+    <button>Mua ngay</button>
+  </div>
+  <div class="book">
+    <img src="inmage/a3.jpg" alt="Sách 2"/>
+    <h3>Tên sách 2</h3>
+    <p>Mô tả sách 2</p>
+    <button>Mua ngay</button>
+  </div>
+  <div class="book">
+    <img src="inmage/a6.jpg" alt="Sách 2"/>
+    <h3>Tên sách 3</h3>
+    <p>Mô tả sách 2</p>
+    <button>Mua ngay</button>
+  </div>
+
+</section>
+<script src="js/edx.js"></script>
+<script src="mouse.js"></script>
+<script src="button.js"></script>
+
+<div >
+  
+  <footer class="body1">
+    <div style="font-family: 'Great Vibes', cursive;"  class="text-lhe">
+      <h2>
+        Liên hệ với chúng tôi:→
+      </h2>
+    </div>
+    
+    <ul class="wrapper">
+      <li class="icon facebook">
+        
+        <span class="tooltip">Facebook</span>
+        
+        <span onclick="window.open('https://www.facebook.com/profile.php?id=100028033343116','_blank')"> 
+          <i class="fab fa-facebook-f">
+
+        </i></span>
+      </li>
+      <li class="icon twitter">
+        <span class="tooltip">Twitter</span>
+        <span onclick="window.open('https://twitter.com/NgocHai96601','_blank')">
+          <i class="fab fa-twitter"></i>
+        </span>
+      </li>
+      <li class="icon instagram">
+        <span class="tooltip">Instagram</span>
+        <span onclick="window.open('https://www.instagram.com/hai032003/','_blank')">
+          <i class="fab fa-instagram"></i>
+        </span>
+      </li>
+      <li class="icon github">
+        <span class="tooltip">Github</span>
+        <span onclick="window.open('https://github.com/','_blank')">
+          <i class="fab fa-github"></i>
+        </span>
+      </li>
+      <li class="icon youtube">
+        <span class="tooltip">Youtube</span>
+        <span onclick="window.open('https://www.youtube.com/','_blank')">
+          <i class="fab fa-youtube"></i>
+        </span>
+      </li>
+    </ul>
+  </footer>
+</div>
+
+
+</body>
+</html>

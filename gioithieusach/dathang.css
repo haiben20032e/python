@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .product-info {
+    margin-top: 20px;
+  }
+  
+  .product-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .product-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-info ul li {
+    margin-bottom: 5px;
+  }
+  
+  .product-info .price {
+    margin-top: 20px;
+  }
+  
+  .product-info .price .price-old {
+    text-decoration: line-through;
+  }
+  
+  .product-info .price .price-new {
+    font-weight: bold;
+  }
+  
+  .product-details {
+    margin-top: 20px;
+  }
+  
+  .product-details .time-to-ship {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-details .time-to-ship span:first-child {
+    margin-right: 10px;
+  }
+  
+  .product-details .return-policy {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-details .return-policy span:first-child {
+    margin-right: 10px;
+  }
+  
+  .quantity {
+    margin-top: 20px;
+  }
+  
+  .quantity input {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
